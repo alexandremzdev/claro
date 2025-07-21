@@ -1,0 +1,41 @@
+/* ======= container ======= */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ======= blocks ======= */
+.blocks {
+    margin-bottom: 3rem;
+    scroll-margin-top: 80px;
+}
+
+/* ======= section group titles ======= */
+.section__group-title {
+    margin-bottom: 3rem;
+}
+
+/* ======= section titles ======= */
+.section__title {
+    font-size: 3rem;
+    text-align: center;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+/* ======= header ======= */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-primary);
+    z-index: 10;
+}
+
+@media (max-width: 1024px) {
+    .blocks {
+        scroll-margin-top: 350px;
+    }
+}
